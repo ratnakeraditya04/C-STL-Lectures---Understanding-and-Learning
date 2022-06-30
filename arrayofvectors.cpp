@@ -17,7 +17,7 @@ int main()
      int N ;
     cin >> N; //No. of Vectors
 
-    // vector<int> v[10] ; // This has initialised an array of 10 empty vector stored in a vector.
+    // vector<int> v[10] ; // This has initialised an array of 10 empty vector/array stored in a vector.
 
     vector <int> V[N] ;
     for(int i = 0 ; i < N ; i++){ //To enter the elements in each vector in N vectors
@@ -40,3 +40,8 @@ int main()
     
     return 0 ;
 }
+
+
+
+
+

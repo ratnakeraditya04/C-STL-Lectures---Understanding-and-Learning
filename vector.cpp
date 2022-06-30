@@ -11,7 +11,7 @@ void printvec(vector<int> &v)
 }
 int main()
 {
-    vector<int> v(5); // Size is currently 0. Size can be changed
+    vector<int> v; // Size is currently 0. Size can be changed
     vector<double> b;
     vector<pair<int, int>> v1; // Vector of pair.
     // int n;
@@ -32,7 +32,7 @@ int main()
     //printvec(v3); 
     v3.push_back(7);
     //printvec(v3);
-    v3.pop_back(); // This removes the last element from the dynamic array thta is present at that time.
+    v3.pop_back(); // This removes the last element from the dynamic array that is present at that time.
 
     //printvec(v3) ;
 
@@ -45,14 +45,6 @@ int main()
 
     vector<int> v4(5);
 
-    // pair<int, int> p[3] ;
-    // p[0] = { 1 ,2  } ;
-    // p[1] = { 3 , 4 } ;
-    // p[2] = { 5 , 6 };
-
-    // for(int i =  0 ; i < 3 ; i++){
-    //     cout << p[i].first <<  " " << p[i].second << endl  ;
-    // }
     printvec(v);
     printvec(v);
 

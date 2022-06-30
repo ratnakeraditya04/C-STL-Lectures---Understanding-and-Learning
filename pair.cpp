@@ -24,6 +24,15 @@ int main()
     }
     // cin >> p.first ;
     // cin >> p.second ;
+    
+    // pair<int, int> p[3] ;
+    // p[0] = { 1 ,2  } ;
+    // p[1] = { 3 , 4 } ;
+    // p[2] = { 5 , 6 };
+
+    // for(int i =  0 ; i < 3 ; i++){
+    //     cout << p[i].first <<  " " << p[i].second << endl  ;
+    // }
 
 
 
