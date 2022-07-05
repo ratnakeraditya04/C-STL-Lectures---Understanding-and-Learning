@@ -26,7 +26,20 @@ int main()
     for(it1 = v_p.begin() ; it1 != v_p.end() ; it1++ ){
         cout << (*it1).first  << " " << (*it1).second << endl ;
         //cout<< it1->first << " " << it2->second << endl ;
+        //it1->first = (*it).first are same.
 
+    }
+
+
+
+    for(int value : v)
+    {
+        cout << value << " " ; 
+    }
+    cout << endl ;
+    for(auto &value2 : v_p)
+    {
+        cout <<  value2.first  << " "  << value2.second <<endl ; 
     }
 
     return 0 ;

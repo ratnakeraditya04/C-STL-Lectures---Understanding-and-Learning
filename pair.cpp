@@ -6,7 +6,8 @@ int main()
     //p = make_pair(2 , "abcde" ) ; // Initialisdation of pair using make_pair.
     p = { 1 , "aditya" } ; // Initialisation of pair 
  
-    pair <int , string> p2 = p ; // Copy of an  existing pair into new one.
+    pair <int , string> p2 = p ; // Copy of an  existing pair into new one. Here, any change in p2 will not affect p as values are copied.
+    pair <int , string> &p3 = p ; // Here what is happening that we are passing p as a reference here so any change in p will be present there. 
     // p2.first = 3 ;
     cout << p2.first << " " << p2.second ;
 
